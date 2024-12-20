@@ -1,8 +1,12 @@
-# config.py
+import os
+from dotenv import load_dotenv
 
-BASE_URL = "https://api.zenskar.com"
-API_KEY = "sandbox_44qNrR5eULWSYkDQdha1Wx-1dHbFlElcxAKNaHODZlg"
-ORG_ID = "bca751e6-7758-4334-b4eb-618771ebcf6a"
+# Load environment variables from the .env file
+load_dotenv()
+
+BASE_URL = os.getenv("BASE_URL")
+API_KEY = os.getenv("API_KEY")
+ORG_ID = os.getenv("ORG_ID")
 
 HEADERS = {
     "x-api-key": API_KEY,
