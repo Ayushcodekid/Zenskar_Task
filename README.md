@@ -16,18 +16,18 @@ This repository contains Python scripts to interact with the Zenskar API for cre
 
 Create Customer
 Description: Creates a new customer in the Zenskar system.
-How to Run:  python create_customer.py
+How to Run:  py create_customer.py
 
 
 2. Create Products
 Description: Creates three types of products:
-How to Run: python create_products.py
+How to Run: py create_products.py
 
 
 
 4. Create Contract
 Description: Creates a contract for the customer, associating them with products and a template.
-How to Run:  python create_contract.py
+How to Run:  py create_contract.py
 
 
 5. Or else run: py main.py 
