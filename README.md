@@ -33,6 +33,7 @@ How to Run:  python create_contract.py
 5. Or else run: py main.py 
 This will run all the three scripts one by one and create all the json data together
 
+Preferrable to run the scripts one by one as they are dependent on each other and also it will be easier to understand the json data.
 
 
 Verify Output
