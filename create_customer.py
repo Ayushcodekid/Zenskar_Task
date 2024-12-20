@@ -4,10 +4,10 @@ from config import BASE_URL, HEADERS
 def create_customer():
     url = f"{BASE_URL}/customers"
     data = {
-    "external_id": "236862834426",
-    "customer_name": "New Customer5",
-    "email": "ayush25@gmail.com",
-    "phone_number": "+919811333910",
+    "external_id": "231111834426",
+    "customer_name": "New Customer8",
+    "email": "ayush28@gmail.com",
+    "phone_number": "+919231333910",
 }
 
     response = requests.post(url, headers=HEADERS, json=data)
@@ -24,3 +24,5 @@ def create_customer():
     return response.json()
 
 create_customer()
+
+
