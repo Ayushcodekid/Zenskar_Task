@@ -1,8 +1,8 @@
-# Zenskar API Integration Scripts
+# Zenskar Assignment Documentation
 
 
 NOTE:
-The api-key , org-id , base-url are present in my .env file which is added it to gitignore , as it contains sensitive informtion
+The api-key , org-id , base-url are present in my .env file which is added  to gitignore , as it contains sensitive informtion.
 
 This repository contains Python scripts to interact with the Zenskar API for creating customers, products, and contracts.
 
